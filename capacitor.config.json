@@ -1,0 +1,9 @@
+{
+  "appId": "com.finishertech.quizbattle",
+  "appName": "Quiz Battle",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
