@@ -537,10 +537,10 @@ const firebaseConfig = {
   messagingSenderId: "746678577290",
   appId: "1:746678577290:web:74bf4287dad278013be573"
 };
-let fbApp, //db;
+let fbApp, db;
 try {
   fbApp = initializeApp(firebaseConfig);
-  db = getFirestore(fbApp);
+ // db = getFirestore(fbApp);
 } catch(err){
   console.error("[QuizBattle] Firebase failed to initialize — app will run in offline/local mode:", err);
 }
